@@ -1,0 +1,33 @@
+{
+  "name": "@dyrkov/node-template",
+  "version": "1.0.0",
+  "description": "Simple template for write  node scripts in es6+ style",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=development",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebWorkDeveloper/node-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebWorkDeveloper/node-template/issues"
+  },
+  "homepage": "https://github.com/WebWorkDeveloper/node-template#readme",
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.2",
+    "nodemon-webpack-plugin": "^4.3.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
